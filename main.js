@@ -29,7 +29,7 @@ function getUserName(callback) {
 	// to simulate if this is a database request
 	setTimeout(function() {
 		// Return the username
-		return callback(null, "Joe Bloggs")
+		return callback(null, "Joe Bloggs ") // Bug Fixed for nicer look with space
 	}, 200)
 }
 
